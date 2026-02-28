@@ -31,13 +31,13 @@ This project demonstrates real-time image capture and basic image processing tec
 
 3. The captured image is converted into:
 
-- Grayscale
+    - Grayscale
 
-- Inverted image
+    - Inverted image
 
-- Blurred image
+    - Blurred image
 
-- Pencil sketch effect using image division
+    - Pencil sketch effect using image division
 
 4. The sketch is saved as:
 
@@ -47,7 +47,7 @@ sketch_image.jpg
 
 5. The final sketch is displayed on screen.
 
-# ▶ How to Run
+## ▶ How to Run
 
 1. Install OpenCV:
 
@@ -61,7 +61,7 @@ pip install opencv-python
 python filename.py
 ```
 
-# 🎮 Controls
+## 🎮 Controls
 
 - **SPACE** → Capture Image
 
@@ -75,3 +75,8 @@ After capturing, the generated sketch will be saved in the same directory as:
 ```
 sketch_image.jpg
 ```
+
+## 👩‍💻 About Me
+
+I’m Salma, a Computer Science Engineering student graduating in 2027.
+I love building interactive projects!
