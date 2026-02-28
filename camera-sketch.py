@@ -41,6 +41,10 @@ blur = cv2.GaussianBlur(inverted, (21, 21), 0)
 inverted_blur = cv2.bitwise_not(blur)
 sketch = cv2.divide(gray, inverted_blur, scale=256.0)
 
+# Save sketch image
+cv2.imwrite("sketch_image.jpg", sketch)
+print("Sketch saved as sketch_image.jpg")
+
 # Show sketch
 cv2.imshow("Sketch Drawing", sketch)
 cv2.waitKey(0)
